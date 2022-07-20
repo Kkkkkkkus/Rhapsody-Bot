@@ -346,7 +346,7 @@ capuser[m.sender.split('@')[0]] = { user: sender, jawaban: jawaban.toLowerCase()
          location: { 
           jpegThumbnail: await reSize(gambar, 200, 200) 
          }, 
-         footer: 'Deffbotz ~ Deff', mentions: [sender] 
+         footer: 'DarkStalker ~ BOT', mentions: [sender] 
          })
 sock.sendMessage(from, { text : 'Cek pesan pribadi bot'}, { quoted : m}) 
 sock.sendMessage(sender, { text : 'Sebutkan kode diatas untuk verifikasi\nKode ini berlaku hingga 30 detik\nJika telat ketik #verify untuk daftar ulang/Reset code'}) 
@@ -376,7 +376,7 @@ rkyt.push(m.sender.split("@")[0])
 // Detect Group Invite
 if (m.mtype === 'groupInviteMessage') {
 teks = `Ketik join untuk bergabung ke group whatsapp anda`
-sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "DEFF~MD", "6289501060783@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
+sendOrder(m.chat, teks, "391028153034238", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "DarkStalker~MD", "6289501060783@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 
 // AntiLink
