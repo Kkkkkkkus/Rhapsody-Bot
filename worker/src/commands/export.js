@@ -20,10 +20,61 @@ let closing = "*╰─────────────────╯*"
 let headtqto = "*╭╾─「 _Thanks To✨_ 」╾───╮*"
 let endbordertqto = "*╰╾───────────────╾╯*"
 let end = "*╰╾────────────────╼*"
+exports.xpMenu = () => {
+return `
+${head}
+${branch} ${prefix}register
+${branch} ${prefix}profile 
+${branch} ${prefix}transfer
+${branch} ${prefix}buylimit
+${end}
+`
+}
+exports.imageeditMenu = () => {
+return `
+${head}
+${branch} ${prefix}wanted
+${branch} ${prefix}utatoo
+${branch} ${prefix}unsharpen
+${branch} ${prefix}thanos
+${branch} ${prefix}sniper
+${branch} ${prefix}sharpen
+${branch} ${prefix}sepia
+${branch} ${prefix}scary
+${branch} ${prefix}rip
+${branch} ${prefix}redple
+${branch} ${prefix}rejected
+${branch} ${prefix}posterize
+${branch} ${prefix}ps4
+${branch} ${prefix}pixelize
+${branch} ${prefix}missionpassed
+${branch} ${prefix}moustache
+${branch} ${prefix}lookwhatkarenhave
+${branch} ${prefix}jail
+${branch} ${prefix}invert
+${branch} ${prefix}greyscale
+${branch} ${prefix}glitch
+${branch} ${prefix}gay
+${branch} ${prefix}frame
+${branch} ${prefix}fire
+${branch} ${prefix}distort
+${branch} ${prefix}dictator
+${branch} ${prefix}deepfry
+${branch} ${prefix}ddungeon
+${branch} ${prefix}circle
+${branch} ${prefix}challenger
+${branch} ${prefix}burn
+${branch} ${prefix}brazzers
+${branch} ${prefix}beautiful
+${end}`
+}
 exports.storeMenu = () => {
 return `
 ${head}
 ${branch} ${prefix}topup
+${branch} ${prefix}convert-ovo
+${branch} ${prefix}convert-gopay
+${branch} ${prefix}convert-dana
 ${branch} ${prefix}kalkulator 
 ${branch} ${prefix}addlist 
 ${branch} ${prefix}dellist 
@@ -38,6 +89,8 @@ ${head}
 ${branch} ${prefix}mlstalk
 ${branch} ${prefix}ffstalk
 ${branch} ${prefix}supersusstalk
+${branch} ${prefix}githubstalk
+${branch} ${prefix}igstalk
 ${end}
 *Stalk Feature*`
 }
@@ -48,7 +101,12 @@ return `
 › ZackMans
 › Rifza
 › Deff
-› All Friends`
+› Rizki 
+› Irpan
+› vynn
+› Dittaz
+› Ridho
+› DKS LEADER`
 }
 exports.animeMenu = () => {
 return `
@@ -149,12 +207,15 @@ ${branch} ${prefix}hapusvote
 ${branch} ${prefix}antilink <on/off>
 ${branch} ${prefix}welcome <on/off>
 ${branch} ${prefix}autorevoke <on/off>
+${branch} ${prefix}autodl <on/off>
+${branch} ${prefix}antidelete <on/off>
+${branch} ${prefix}antireact <on/off>
+${branch} ${prefix}antiviewonce <on/off>
 ${branch} ${prefix}add 
 ${branch} ${prefix}kick 
 ${branch} ${prefix}revoke 
 ${branch} ${prefix}group <open/close>
 ${branch} ${prefix}editinfo <open/close>
-${branch} ${prefix}ceksewa 
 ${branch} ${prefix}mute
 ${end}
 *Grup Featured*
@@ -204,7 +265,6 @@ ${branch} ${prefix}holoh
 ${branch} ${prefix}math 
 ${branch} ${prefix}tictactoe 
 ${branch} ${prefix}delttt 
-${branch} ${prefix}tebakgambar
 ${branch} ${prefix}kuismath
 ${branch} ${prefix}tebakkimia
 ${branch} ${prefix}asahotak
@@ -238,70 +298,68 @@ ${end}
 exports.textproMenu = () => {
 return `
 ${head}
-${branch} ${prefix}3dbox   
-${branch} ${prefix}drapwater   
-${branch} ${prefix}lion2   
-${branch} ${prefix}papercut   
-${branch} ${prefix}transformer   
-${branch} ${prefix}herryp   
-${branch} ${prefix}neondevil   
-${branch} ${prefix}3dstone   
-${branch} ${prefix}3davengers   
-${branch} ${prefix}thunder   
-${branch} ${prefix}window   
-${branch} ${prefix}graffiti   
-${branch} ${prefix}pornhub   
-${branch} ${prefix}glitch   
-${branch} ${prefix}blackping   
-${branch} ${prefix}glitch3   
-${branch} ${prefix}glitch2   
-${branch} ${prefix}3dspace   
-${branch} ${prefix}lion   
-${branch} ${prefix}3dneon   
-${branch} ${prefix}neon   
-${branch} ${prefix}greenneon   
-${branch} ${prefix}bokeh   
-${branch} ${prefix}hollographic   
-${branch} ${prefix}bear   
-${branch} ${prefix}wolf   
-${branch} ${prefix}joker   
-${branch} ${prefix}dropwater   
-${branch} ${prefix}neonlight   
-${branch} ${prefix}thewall   
-${branch} ${prefix}natural   
-${branch} ${prefix}carbon   
-${branch} ${prefix}pencil   
-${branch} ${prefix}blackpink  
-${branch} ${prefix}neon  
-${branch} ${prefix}greenneon  
-${branch} ${prefix}advanceglow  
-${branch} ${prefix}futureneon  
-${branch} ${prefix}sandwriting  
-${branch} ${prefix}sandsummer  
-${branch} ${prefix}sandengraved  
-${branch} ${prefix}metaldark  
-${branch} ${prefix}neonlight  
-${branch} ${prefix}holographic  
-${branch} ${prefix}text1917  
-${branch} ${prefix}minion  
-${branch} ${prefix}deluxesilver  
-${branch} ${prefix}newyearcard  
-${branch} ${prefix}bloodfrosted  
-${branch} ${prefix}halloween  
-${branch} ${prefix}jokerlogo  
-${branch} ${prefix}fireworksparkle  
-${branch} ${prefix}natureleaves  
-${branch} ${prefix}bokeh  
-${branch} ${prefix}toxic  
-${branch} ${prefix}strawberry  
-${branch} ${prefix}box3d  
-${branch} ${prefix}roadwarning  
-${branch} ${prefix}icecold  
-${branch} ${prefix}luxury  
-${branch} ${prefix}cloud  
-${branch} ${prefix}summersand  
-${branch} ${prefix}horrorblood  
-${branch} ${prefix}thunder  
+${branch} ${prefix}candy 
+${branch} ${prefix}christmas 
+${branch} ${prefix}3dchristmas 
+${branch} ${prefix}sparklechristmas
+${branch} ${prefix}deepsea 
+${branch} ${prefix}scifi 
+${branch} ${prefix}rainbow 
+${branch} ${prefix}waterpipe 
+${branch} ${prefix}spooky 
+${branch} ${prefix}pencil 
+${branch} ${prefix}circuit 
+${branch} ${prefix}discovery 
+${branch} ${prefix}metalic 
+${branch} ${prefix}fiction 
+${branch} ${prefix}demon 
+${branch} ${prefix}transformer 
+${branch} ${prefix}berry 
+${branch} ${prefix}thunder 
+${branch} ${prefix}magma 
+${branch} ${prefix}3dstone 
+${branch} ${prefix}neonlight 
+${branch} ${prefix}glitch 
+${branch} ${prefix}harrypotter 
+${branch} ${prefix}brokenglass 
+${branch} ${prefix}papercut 
+${branch} ${prefix}watercolor 
+${branch} ${prefix}multicolor 
+${branch} ${prefix}neondevil 
+${branch} ${prefix}underwater 
+${branch} ${prefix}graffitibike
+${branch} ${prefix}snow 
+${branch} ${prefix}cloud
+${branch} ${prefix}honey
+${branch} ${prefix}ice 
+${branch} ${prefix}fruitjuice 
+${branch} ${prefix}biscuit 
+${branch} ${prefix}wood 
+${branch} ${prefix}chocolate 
+${branch} ${prefix}strawberry
+${branch} ${prefix}matrix
+${branch} ${prefix}blood 
+${branch} ${prefix}dropwater 
+${branch} ${prefix}toxic 
+${branch} ${prefix}lava 
+${branch} ${prefix}rock 
+${branch} ${prefix}bloodglas 
+${branch} ${prefix}hallowen 
+${branch} ${prefix}darkgold 
+${branch} ${prefix}joker
+${branch} ${prefix}wicker
+${branch} ${prefix}firework
+${branch} ${prefix}skeleton 
+${branch} ${prefix}blackpink 
+${branch} ${prefix}sand 
+${branch} ${prefix}glue 
+${branch} ${prefix}1917 
+${branch} ${prefix}leaves 
+${branch} ${prefix}glitch3
+${branch} ${prefix}drapwater
+${branch} ${prefix}3dbox
+${branch} ${prefix}pornhub
+${branch} ${prefix}lion2
 ${end}
 *Textpro Featured*
 `
@@ -372,16 +430,14 @@ ${end}
 exports.ownerMenu = () => {
 return `
 ${head}
+${branch} ${prefix}sendsession
 ${branch} ${prefix}modeprefix
 ${branch} ${prefix}setprefix
 ${branch} ${prefix}self 
-${branch} ${prefix}sewa <add/del>
-${branch} ${prefix}listsewa 
 ${branch} ${prefix}public 
 ${branch} ${prefix}bcall 
 ${branch} ${prefix}bcgroup 
 ${branch} ${prefix}chat 
-${branch} ${prefix}antitag 
 ${branch} ${prefix}ban <add/del>
 ${branch} ${prefix}cowner <add/del>
 ${branch}> / => / $
